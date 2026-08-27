@@ -30,6 +30,7 @@ skills:
   - Multi-agent systems
   - Agent simulation and regression
   - Task hardening
+  - AI-assisted development
 - group: ML & Research
   items:
   - PyTorch
@@ -47,6 +48,7 @@ skills:
   - Java
   - Golang
   - JavaScript
+  - TypeScript
   - Ruby
   - C/C++
 - group: Backend & APIs
@@ -60,6 +62,8 @@ skills:
   - Kafka
   - RabbitMQ
   - Caching
+  - Schema design
+  - Monitoring and dashboards
 - group: Cloud & Infrastructure
   items:
   - AWS
@@ -74,6 +78,8 @@ skills:
   - Kubernetes
   - Git
   - GitHub
+  - CI/CD
+  - Logging and monitoring
 - group: Databases & Storage
   items:
   - PostgreSQL
@@ -92,6 +98,7 @@ skills:
   - Presto/Trino
 - group: Frontend
   items:
+  - TypeScript
   - React.js
   - Next.js
   - Angular
@@ -113,6 +120,7 @@ skills:
   - Jest
   - React Testing Library
   - Cypress
+  - Pytest
 experience:
 - title: Senior Full Stack Developer
   company: MyChoice Financial Inc.
@@ -126,15 +134,20 @@ experience:
   - Built a runtime policy-bind evaluation engine, an LLM agentic workflow in LangGraph grounded
     in the underwriting guidelines through RAG, that flags plausible issues at bind time so
     brokers correct errors before exposure reaches audit.
+  - Took the MCP (Model Context Protocol) server and the ChatGPT-native quoting plugin to
+    production, giving internal agents governed access to company data and letting customers
+    get preliminary quotes inside an AI assistant.
+  - Added the CI/CD pipeline behind those services, and owned the broker-facing product area
+    across successive releases, iterating with broker and Managing Partner feedback toward
+    product-market fit.
+  - Started features from ambiguous problem statements rather than specs, refining scope through
+    regular feedback and expectation rounds with brokers and Managing Partners before and
+    during the build.
   - Engineered a policy auditing platform running 111+ validations across underwriting, soft-fraud
     and premium-leakage to surface pricing exposure on bound policies.
-  - Launched an AI-driven quoting channel through a ChatGPT-native interface, letting customers
-    get preliminary quotes inside an AI assistant.
   - Led a caching layer precomputing the Sales, Service and Book of Business dashboards into
     mathematically derived buckets, cutting load times from seconds to under one second with
     separate admin and broker views.
-  - Built an MCP (Model Context Protocol) server and Claude agent orchestration tooling giving
-    internal agents safe access to company data and automating developer workflows.
   - Redesigned the homepage around modular components to host new broker features and give
     Managing Partners and admins a broker's-eye view of the platform, increasing visibility
     into broker activity.
@@ -167,8 +180,9 @@ experience:
   bullets:
   - Co-founded a multidisciplinary non-profit research lab with Dr. Shohini Ghose and Dr.
     Toorjo Ghose.
-  - Research projects on combinatorial mathematics, mental health datasets, and photon light
-    activity correlation.
+  - Research on the NLSY mental health dataset, a US government-regulated longitudinal survey,
+    alongside combinatorial mathematics and photon light activity correlation, spanning quantum
+    computing, AI/ML and high-performance computing.
   - Research directions intersect mathematics, quantum computing, AI/ML and high-performance
     computing.
   - Collaborators include Dr. Ilias Kotsireas and Dr. Nirosha Murugan.
