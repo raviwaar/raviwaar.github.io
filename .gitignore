@@ -1,0 +1,9 @@
+# JetBrains IDE
+.idea/
+
+# macOS
+.DS_Store
+
+# Editor scratch
+*.swp
+*~

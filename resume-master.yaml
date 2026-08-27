@@ -1,0 +1,299 @@
+name: Ravi Narayan Mahawar
+headline: Applied AI & ML Engineer / Product Thinker
+contact:
+  email: mahawarravi4@gmail.com
+  phone: +1-548-881-6499
+  location: Toronto, ON
+  linkedin: linkedin.com/in/ravi-narayan-mahawar-3674a3138
+  github: github.com/raviwaar
+  portfolio: raviwaar.github.io
+  huggingface: huggingface.co/raviwaar
+summary: 'Applied AI and ML engineer with over five years shipping production systems. Has
+  taken LLM-powered features from an empty repo to real users in a regulated insurance domain,
+  and owned them once they were live: an agentic policy-bind evaluation engine built on LangGraph
+  and RAG, an MCP server serving internal agents, and multi-agent Claude pipelines that simulate
+  and regress on hardened tasks. Works across the stack in Python, Golang, Java and React
+  on AWS, with a research background in reinforcement learning and multi-agent RL where inventing
+  an approach and proving it worked was the job.
+
+  '
+skills:
+- group: Applied AI
+  items:
+  - LLM applications
+  - RAG (retrieval-augmented generation)
+  - LangGraph
+  - Agentic workflows
+  - MCP (Model Context Protocol)
+  - Tool calling
+  - Claude agent orchestration
+  - Multi-agent systems
+  - Agent simulation and regression
+  - Task hardening
+- group: ML & Research
+  items:
+  - PyTorch
+  - Keras
+  - Scikit-Learn
+  - Reinforcement learning
+  - MARL
+  - Quantum computing
+  - MPI
+  - OpenMP
+  - OSINT
+- group: Languages
+  items:
+  - Python
+  - Java
+  - Golang
+  - JavaScript
+  - Ruby
+  - C/C++
+- group: Backend & APIs
+  items:
+  - Microservices
+  - REST
+  - GraphQL
+  - Node/Express
+  - Ruby on Rails
+  - Celery
+  - Kafka
+  - RabbitMQ
+  - Caching
+- group: Cloud & Infrastructure
+  items:
+  - AWS
+  - AWS Lambda
+  - AWS S3
+  - EC2
+  - ECS/EKS
+  - RDS
+  - CloudWatch
+  - SNS
+  - Docker
+  - Kubernetes
+  - Git
+  - GitHub
+- group: Databases & Storage
+  items:
+  - PostgreSQL
+  - MySQL
+  - MariaDB
+  - SQLite
+  - MongoDB
+  - Cassandra
+  - DynamoDB
+  - Redis
+  - Memcached
+- group: Analytics & Big Data
+  items:
+  - Snowflake
+  - Elasticsearch
+  - Presto/Trino
+- group: Frontend
+  items:
+  - React.js
+  - Next.js
+  - Angular
+  - Vue.js
+  - Redux
+  - Zustand
+  - Context API
+  - Material-UI
+  - Tailwind CSS
+  - Bootstrap
+  - Chart.js
+  - D3.js
+  - Recharts
+  - Axios
+  - SWR
+  - React Query
+- group: Testing
+  items:
+  - Jest
+  - React Testing Library
+  - Cypress
+experience:
+- title: Senior Full Stack Developer
+  company: MyChoice Financial Inc.
+  location: Toronto, ON
+  start: 01/2026
+  end: Present
+  bullets:
+  - Shipped Broker After-Hour Referral, letting brokers get Managing Partner sign-off outside
+    business hours to fast-track binds instead of losing the sale to the appeal process. Drove
+    1,000+ referrals in two weeks and CAD 6M+ in business retained in the first two months.
+  - Built a runtime policy-bind evaluation engine, an LLM agentic workflow in LangGraph grounded
+    in the underwriting guidelines through RAG, that flags plausible issues at bind time so
+    brokers correct errors before exposure reaches audit.
+  - Engineered a policy auditing platform running 111+ validations across underwriting, soft-fraud
+    and premium-leakage to surface pricing exposure on bound policies.
+  - Launched an AI-driven quoting channel through a ChatGPT-native interface, letting customers
+    get preliminary quotes inside an AI assistant.
+  - Led a caching layer precomputing the Sales, Service and Book of Business dashboards into
+    mathematically derived buckets, cutting load times from seconds to under one second with
+    separate admin and broker views.
+  - Built an MCP (Model Context Protocol) server and Claude agent orchestration tooling giving
+    internal agents safe access to company data and automating developer workflows.
+  - Redesigned the homepage around modular components to host new broker features and give
+    Managing Partners and admins a broker's-eye view of the platform, increasing visibility
+    into broker activity.
+  - Built a real-time sales performance and contest dashboard for brokers and leadership to
+    track individual and branch-level metrics, with reliable monthly leaderboard rollovers
+    and no manual intervention.
+  - Optimized customer-facing flows and document fetching systems to reduce platform latency,
+    improving broker throughput and application completion rates.
+  - Drove CAD 2M+ in retained business in the first two weeks of the Broker After-Hour Referral
+    launch (July 2026).
+- title: Founder / AI & ML Research Consultant
+  company: Dashwood ThinkTank
+  location: Toronto, ON
+  start: 04/2026
+  end: Present
+  bullets:
+  - Founded an independent AI/ML research consultancy taking on applied research engagements
+    for clients under NDA.
+  - Researched task hardening for agents, training them on difficult problems with reinforcement
+    learning and other applied ML methods.
+  - Designed multi-agent Claude pipelines that simulate and regress on hardened tasks, measuring
+    them against target outcomes and fail rates.
+  - That pipeline became the client's foundational multi-agent swarm workflow, taken up by
+    other contributors and adopted across all of their projects.
+- title: Research Partner
+  company: Research ThinkTank
+  location: Toronto, ON
+  start: 09/2025
+  end: Present
+  bullets:
+  - Co-founded a multidisciplinary non-profit research lab with Dr. Shohini Ghose and Dr.
+    Toorjo Ghose.
+  - Research projects on combinatorial mathematics, mental health datasets, and photon light
+    activity correlation.
+  - Research directions intersect mathematics, quantum computing, AI/ML and high-performance
+    computing.
+  - Collaborators include Dr. Ilias Kotsireas and Dr. Nirosha Murugan.
+  - Models and datasets are held private under IP protection pending publication of the associated
+    papers.
+- title: ML Engineer
+  company: Project Ploughshares
+  location: Kitchener, ON
+  start: 06/2025
+  end: 09/2025
+  bullets:
+  - Developed an open-source intelligence (OSINT) monitoring system to aid in identifying
+    potential arms embargo violations and support global disarmament efforts.
+  - Implemented a global web scraper using Crawl4AI that performs shallow digs for relevant
+    data, escalates to deeper exploration on human approval, and uses LLMs to summarize findings
+    and surface geolocated resources worldwide.
+  - Made new resources discoverable for the team while keeping a human in the loop for source
+    reliability, eliminating manual repetitive work across data ingestion, context mapping
+    and association.
+- title: Quantum Computing & ML Research Assistant
+  company: Wilfrid Laurier University
+  location: Waterloo, ON
+  start: 09/2022
+  end: 08/2025
+  bullets:
+  - Developed optimized solutions for D-optimal, Legendre Pair and Hadamard Matrix problems
+    using serial and MPI implementations, testing performance prior to quantum resource implementation.
+  - Designed reinforcement learning algorithms that solved combinatorial problems at two-digit
+    problem sizes, then reached three-digit sizes by transferring the learned policies rather
+    than searching from scratch.
+  - Engineered three quantum algorithms with D-Wave for mathematical problems, focusing on
+    performance optimization and resource efficiency.
+  - Built an explainable MARL framework on top of VIPER, evaluating performance across 3 games
+    and 40+ parameter combinations on AWS servers.
+- title: Senior Software Engineer
+  company: Multiplier
+  location: Remote
+  start: 05/2021
+  end: 2022
+  bullets:
+  - Improved customer onboarding efficiency by 60% by developing a dynamic salary breakdown
+    service for 40+ countries and currencies.
+  - Increased platform communication capacity, handling 100+ email notifications daily, by
+    designing a scalable cross-service email solution.
+  - Reduced processing latency by 40% by integrating Amazon MSK and establishing 10+ asynchronous
+    channels between microservices.
+  - Accelerated contract workflows by 75% by automating document generation across five microservices
+    through PandaDoc integration.
+  - Mentored junior engineers and led the extraction of microservices from the existing monolith,
+    building the new services from scratch.
+- title: Senior Software Engineer
+  company: MakeMyTrip
+  location: Bangalore, India
+  start: 06/2019
+  end: 05/2021
+  bullets:
+  - Led the project to calculate and apply day-wise offer combinations producing the cheapest
+    booking for end users across platforms.
+  - Implemented dynamic programming algorithms for promotion calculations, enhancing offer
+    application logic on multiple booking platforms.
+  - Drove a 20% increase in bookings, adding 500 room nights daily, by leading the Day Wise
+    Promotion project.
+  - Spearheaded adoption of closed user group discounts, achieving CUG application in 50%
+    of all bookings through models, API integration and business logic.
+  - Migrated three TIER-1 services from ECS to EKS.
+- title: Software Engineer
+  company: Piggy
+  location: Bangalore, India
+  start: 08/2018
+  end: 06/2019
+  bullets:
+  - Increased API performance by 40% across 10+ user-facing endpoints.
+  - Developed and deployed a Celery system with auto-scaling capacity, handling 150+ parallel
+    tasks per day.
+  - Achieved 99.99% uptime for payment services by integrating Razorpay and automating all
+    refund processes.
+  - Mentored 3 SDE interns and led development of 3 key features including Simply Save, Digital
+    KYC and One-Link Invest.
+- title: SDE Intern
+  company: Amazon
+  location: Bangalore, India
+  start: 01/2018
+  end: 06/2018
+  bullets:
+  - Independently developed a caching mechanism that periodically refreshes the latest version
+    of all resources, performs schema validation and maintains an in-memory cache, eliminating
+    a database hit on every request.
+  - Independently developed an S3-based data source that periodically refreshes data from
+    the service.
+  - Re-architected the service client library to fall back to the S3 source when the service
+    is unavailable.
+education:
+- degree: Master of Applied Computing
+  school: Wilfrid Laurier University
+  location: Waterloo, Canada
+  start: 09/2022
+  end: 08/2025
+- degree: B.Tech., Computer Science
+  school: College of Engineering and Technology
+  location: Bhubaneswar, India
+  start: 08/2014
+  end: 05/2018
+section_order:
+- summary
+- skills
+- experience
+- projects
+- education
+projects:
+- name: APP-FractalProject
+  tech: C/C++, MPI, OpenMP
+  bullets:
+  - Generates fractal images using parallel processing and converts the raw binary output
+    into a PNG image. github.com/raviwaar/APP-FractalProject
+- name: SLAM (Smart Lab Availability Manager)
+  tech: Python, OneDrive API
+  bullets:
+  - Edits an Excel file in OneDrive to find available lab slots and book them seamlessly.
+    github.com/raviwaar/SLAM
+- name: 911 Calls Analysis Platform
+  tech: Spring Boot, Java, Jupyter
+  bullets:
+  - Spring Boot web app integrating with Jupyter Notebooks to analyze and visualize 911 call
+    data. github.com/raviwaar/AI-911-Calls-Platform
+- name: React Job Portal
+  tech: React, JavaScript
+  bullets:
+  - Job portal with flows for both job seekers and employers. github.com/raviwaar/react_job_portal
